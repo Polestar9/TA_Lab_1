@@ -2,10 +2,10 @@ using System;
 namespace Lab_1_Test
 {
     [TestClass]
-    public class ParallelepipedTests
+    public class figure_calculator
     {
         [TestMethod]
-        public void TestVolumeCalculation()
+        public void volume_calculator()
         {
             int a = 1;
             int b = 2;
@@ -15,7 +15,7 @@ namespace Lab_1_Test
         }
 
         [TestMethod]
-        public void TestSurfaceAreaCalculation()
+        public void area_calculator()
         {
             int a = 1;
             int b = 2;
