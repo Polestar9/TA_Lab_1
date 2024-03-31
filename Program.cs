@@ -29,12 +29,8 @@ namespace Lab_1
                 Console.WriteLine("Неможливо вирахувати площу поверхні. Довжина кожного ребра повинна бути більшою за нуль.");
                 return;
             }
-
-            int V = a * b * c;
-            int S = 2 * (a * b + b * c + a * c);
-
-            Console.WriteLine($"Об'єм паралелепіпеда: {V}");
-            Console.WriteLine($"Площа поверхні паралелепіпеда: {S}");
+            Console.WriteLine($"Об'єм паралелепіпеда: {lab_program.V}");
+            Console.WriteLine($"Площа поверхні паралелепіпеда: {lab_program.S}");
         }
     }
 }
